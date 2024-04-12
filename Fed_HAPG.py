@@ -17,6 +17,8 @@ from Envs.halfcheetah import CustomHalfCheetahEnv
 from Envs.hopper import CustomHopperEnv
 from Envs.walker2d import CustomWalker2dEnv
 import numpy as np
+import torch
+
 
 parser = argparse.ArgumentParser(description='FedHAPG-M for DRL in mujoco')
 parser.add_argument('--env', default='CartPole', type=str, help='choose environment from [CartPole, Walker, Hopper, HalfCheetah]')
