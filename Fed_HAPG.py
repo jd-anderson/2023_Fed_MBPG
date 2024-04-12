@@ -17,7 +17,7 @@ from Envs.halfcheetah import CustomHalfCheetahEnv
 from Envs.hopper import CustomHopperEnv
 from Envs.walker2d import CustomWalker2dEnv
 import numpy as np
-import torch
+
 
 
 parser = argparse.ArgumentParser(description='FedHAPG-M for DRL in mujoco')
